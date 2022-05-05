@@ -17,10 +17,29 @@ ul {
 .hidden {
   display: none;
 }
-
-.error {
+.custom-span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.match-li {
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+}
+.match-style {
+  background-color: #fb8b24;
+  color: white;
+}
+.err-msg {
   background-color: rgba(222, 30, 30, 0.899);
   color: #f4f4f4;
   padding: 5px;
   margin-bottom: 10px;
+}
+
+i {
+  margin-right: 6px;
+  /* font-size: 20px; */
 }
