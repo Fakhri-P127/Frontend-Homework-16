@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+.custom-li {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  background-color: rgba(222, 30, 30, 0.899);
+  color: #f4f4f4;
+  padding: 5px;
+  margin-bottom: 10px;
+}
